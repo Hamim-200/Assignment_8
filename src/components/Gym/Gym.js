@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Exercise from '../Exercise/Exercise';
 import './Gym.css'
 
 const Gym = () => {
@@ -13,7 +14,15 @@ const Gym = () => {
     return (
         <div className='gym-container'>
             <div className="exercises-container">
-                <h3>Select Todays exercises : {exercises.length}</h3>
+
+                {
+                    exercises.map(exercise => <Exercise
+                        key={exercise.id}
+                        exercise={exercise}
+
+                    ></Exercise>)
+
+                }
 
             </div>
             <div className="profile-container">
