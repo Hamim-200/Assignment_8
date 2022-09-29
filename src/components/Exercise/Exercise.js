@@ -3,17 +3,19 @@ import './Exercise.css'
 
 const Exercise = (props) => {
     const { name, Time, description, img } = props.exercise;
+    const { handleAddToCart } = props;
+
     return (
         <div className='exercise'>
             <img src={img} alt="" />
             <div className='exercise-info'>
                 <p>Name: {name}</p>
                 <p>{description}</p>
-                <p><h4>Time: {Time}</h4> </p>
+                <h4>Time: {Time}</h4>
             </div>
             <div>
-                <button className='btn-cart'>
-                    <h5>Add to list</h5>
+                <button onClick={() => handleAddToCart(props.exercise)} className='btn-cart'>
+                    <p>Add to list</p>
                 </button>
             </div>
 

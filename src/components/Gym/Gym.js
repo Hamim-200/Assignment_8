@@ -11,6 +11,10 @@ const Gym = () => {
             .then(data => setExercises(data))
 
     }, [])
+
+    const handleAddToCart = (exercise) => {
+        console.log(exercise)
+    }
     return (
         <div className='gym-container'>
             <div className="exercises-container">
@@ -19,6 +23,7 @@ const Gym = () => {
                     exercises.map(exercise => <Exercise
                         key={exercise.id}
                         exercise={exercise}
+                        handleAddToCart={handleAddToCart}
 
                     ></Exercise>)
 
