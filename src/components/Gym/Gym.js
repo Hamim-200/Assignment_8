@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
+import Profile from '../Profile/Profile';
 import './Gym.css'
 
 const Gym = () => {
@@ -34,8 +35,7 @@ const Gym = () => {
 
             </div>
             <div className="profile-container">
-                <h4>Zahid Hasan</h4>
-                <p>Today's Exercise: {profile.length}</p>
+                <Profile profile={profile}></Profile>
 
             </div>
 
