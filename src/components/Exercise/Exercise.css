@@ -41,3 +41,7 @@
 .btn-cart:hover {
     background-color: green;
 }
+
+.btn-cart .btn-text {
+    margin-right: 10px;
+}

@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareCheck } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './Exercise.css'
 
@@ -15,7 +17,8 @@ const Exercise = (props) => {
             </div>
             <div>
                 <button onClick={() => handleAddToCart(props.exercise)} className='btn-cart'>
-                    <p>Add to list</p>
+                    <p className='btn-text'>Add to list</p>
+                    <FontAwesomeIcon icon={faSquareCheck}></FontAwesomeIcon>
                 </button>
             </div>
 
