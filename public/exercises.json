@@ -2,42 +2,42 @@
     {
         "id": "A1",
         "name": "Squatss",
-        "Time": "100S",
+        "Time": 100,
         "description": "A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up",
         "img": "https://images.unsplash.com/photo-1541600383005-565c949cf777?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     },
     {
         "id": "A2",
         "name": "Running",
-        "Time": "300S",
+        "Time": 300,
         "description": "Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot",
         "img": "https://images.unsplash.com/photo-1486218119243-13883505764c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
     },
     {
         "id": "A3",
         "name": "Cycling",
-        "Time": "100S",
+        "Time": 200,
         "description": "Cycling, use of a bicycle for sport, recreation, or transportation. The sport of cycling consists of professional and amateur races",
         "img": "https://images.unsplash.com/photo-1601625193660-86f2807b024b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     },
     {
         "id": "A4",
         "name": "Yoga",
-        "Time": "400S",
+        "Time": 400,
         "description": "Yoga is an ancient practice that involves physical poses, concentration, and deep breathing",
         "img": "https://images.unsplash.com/photo-1524863479829-916d8e77f114?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     },
     {
         "id": "A5",
         "name": "Hiking",
-        "Time": "600S",
+        "Time": 600,
         "description": "Hiking is a long, vigorous walk, usually on trails or footpaths in the countryside. Walking for pleasure developed in Europe.",
         "img": "https://images.unsplash.com/photo-1458442310124-dde6edb43d10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     },
     {
         "id": "A6",
         "name": "Push-up",
-        "Time": "300S",
+        "Time": 300,
         "description": "The push-up is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms.",
         "img": "https://images.unsplash.com/photo-1599744331048-d58b430fb098?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80"
     }

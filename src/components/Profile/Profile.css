@@ -1,0 +1,22 @@
+.profile {
+    position: sticky;
+    top: 0;
+    padding: 30px 25px;
+}
+
+.person-info img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.person-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bio {
+    background-color: greenyellow;
+    color: black;
+}

@@ -22,7 +22,6 @@ const Exercise = (props) => {
                 </button>
             </div>
 
-
         </div>
     );
 };
